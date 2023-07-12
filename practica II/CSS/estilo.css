@@ -1,0 +1,359 @@
+/*esto es un comentario multilínea en css
+si hago enter, me baja un renglón
+selector {
+    propiedad:valor; 
+    propiedad:valor;
+    propiedad:valor;
+    hay tres selectores principales:
+    1 selector de etiqueta (estilamos todas las etiquetas de html
+    2 selector de clase (estilamos a aquellas etiquetas que se encuentran clasificadas con la 
+    clase que estoy usando de selector
+    3 selector de id (este es unico e irrepetible, estilamos una unica estiqueta de html)
+}
+    
+    */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&family=Quicksand:wght@300;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*estilado de header*/
+header {
+    position: sticky;
+    background-color:white;
+    overflow: auto;
+    top: 0;
+  }
+  
+  .divHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  #logo {
+    width: 180px;
+    height: 180px;
+    /*display: inline;*/
+    /*float: left;*/
+  
+  }
+
+
+  .headInicio{
+    /*display: inline;*/
+    float: left;
+    font-family: 'Poppins' ;
+    color: azure; 
+    padding: 40px 40px;;
+  }
+
+  .listadoNav {
+    list-style-type: none;
+    /*display: inline*/
+    /*float: right;*/
+    /*padding-top: 80px;*/
+    align-items: center;
+  }
+  
+  .liHeader {
+    margin-right: 30px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: large;
+    display: inline-block;
+    padding: 10px 30px;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    
+    
+  }
+
+  a:hover {
+    color: black;
+    background-color: powderblue;
+    
+  }  
+    
+
+/*fin de estilado header*/
+
+
+
+/*comienzo estilado footer*/
+
+footer {
+    background-color: #F5EBEB;
+    padding: 20px;
+    height: 185px;
+    clear: both;
+    
+  }
+  
+  .infoFooter {
+    color: brown;
+    font-size: 16px;
+    float: left;
+    width: 250px;
+    margin: 5px;
+    margin-left: 500px;
+    padding-left: 10px;
+    border-left: 1px  solid black;
+
+  }
+  
+  .logoMedia {
+    height: 36px;
+    width: 36px;
+    float: left;
+  }
+
+  .googleMaps {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+  }
+  .mapaFooter{
+    height: 200px;
+    width: 300px;
+    margin-top:  0px;
+    float: left;
+  }
+.listadoFooter{
+    list-style-type: none;
+    display: inline;
+    float: right;
+    padding-top: 30px; 
+}
+.liFooter{
+    margin-right: 50px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+/*fin de estilado Footer*/
+
+
+/*comienzo estilado main de Inicio*/
+
+.mainIndex{
+    background-image: url("../assets/img/backgroundperro.jpeg");
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.7;
+}
+p {
+    color: rgba(0, 0, 0, 2);
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    
+    
+}
+.inicio{
+    float: left;
+    width: 40%;
+    margin: 25px;
+    padding: 20px;
+    text-align: justify;
+    top: 300px;
+}
+
+.presentacionInicio {
+    float: left;
+    width: 35%;
+    text-align: justify;
+    margin: 25px;
+    padding: 30px;
+
+    
+}
+
+.inicioTi{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 600;
+    
+}
+/*fin de estilado Inicio*/
+
+
+/* estilado página servicios*/
+.infoServicios {
+  
+  text-align: center;   
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 500px;
+  border: 2px solid pink;
+  padding: 20px;
+}
+
+.servicios{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.imagenServicio{
+    width: 250px; height: 250px;
+    
+    margin: 20px;
+    box-shadow: 10px 10px rosybrown;
+}
+
+.h3Servicios{
+  margin: 20px;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.parrafoServicios{
+  background-color: gainsboro;
+  padding: 10px;
+}
+
+/*fin de estilado Servicios*/
+
+
+
+/*estilado adopciones*/
+.mainAdopciones{
+  overflow-x: hidden;
+}
+.h3Adopciones{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 32px;
+  padding-bottom: 50px;
+}
+.parrafoTituloAdopciones{
+  font-family: 'Poppins';
+  font-weight: 300;
+  width: 800px;
+  text-align: center;
+}
+
+.linkAdopciones{
+  padding-top: 30px;
+}
+
+
+.artAdopciones{
+    padding: 100px 250px 100px 250px;
+    justify-content: center;
+
+}
+.sectionAdopciones{
+    display: inline-block;
+    background-color: aquamarine;
+    padding-left: 100px;
+
+}
+
+.granDivAdopciones{
+    width: 40%;
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 20px; 
+    margin-left: 50px; 
+   
+    
+}
+
+.imgAdopciones{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+   
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    
+}
+
+.divImagenAdopciones{
+  margin-top:30px ;
+  margin-bottom: 10px;
+  margin-left: 45px;
+}
+
+.divParrAdopciones{
+    font-family: 'Poppins' sans-serif;
+    text-align: center; 
+    padding: 20px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: beige;
+    display: inline-block;
+  
+}
+/*fin de estilado Adopciones*/
+
+
+
+/*estilado de formulario*/
+
+
+.formPrincipal{
+  margin-top: 80px;
+  margin-left: 300px;
+  width: 50%;
+}
+
+.parrafoContacto{
+  padding: 50px;
+}
+
+
+
+.estiloForm{
+    font-family: 'Poppins';
+    font-weight: 300;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+/* Estilo para text y email */
+input[type="text"],
+input[type="email"] {
+  width: 80%; 
+  padding: 10px; 
+  border: 3px solid #755d4cdb; 
+  border-radius: 4px; 
+}
+
+/* Estilo para el textarea */
+textarea {
+    width: 80%; 
+    padding: 10px;
+    border: 3px solid #755d4cdb; 
+    border-radius: 4px; 
+}
+
+/* Estilo para los botones de envío y reset */
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px 20px; 
+  background-color: #755d4cdb; 
+  color: #fff; 
+  border: none; 
+  border-radius: 4px; 
+ 
+}
